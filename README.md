@@ -5,7 +5,7 @@
 **Course:** Web Technologies (Front-End Development)  
 **University:** Astana IT University  
 **Repository:** [https://github.com/ParasatAshk/Assign5WEB](https://github.com/ParasatAshk/Assign5WEB)  
-**Live Demo (GitHub Pages):** [https://parasatashk.github.io/Assign5WEB/](https://parasatashk.github.io/Assign5WEB/)
+**GitHub Pages:** [ https://parasatashk.github.io/Assign5WEB/)
 
 ---
 
