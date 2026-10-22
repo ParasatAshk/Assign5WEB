@@ -92,35 +92,76 @@
       </div>
 
       <div id="task2" class="card mb-4">
-        <div class="card-header bg-white py-3">
+        <div class="card-header bg-white py-3 d-flex align-items-center justify-content-between">
           <h2 class="h5 fw-bold mb-0 text-success">
             <i class="bi bi-pencil-square me-2"></i>Task 2: Changing Content
           </h2>
+          <span class="badge bg-light text-secondary border">textContent Manipulation</span>
         </div>
         <div class="card-body">
-          <p class="text-muted">Loading Task 2...</p>
+          <p class="text-muted mb-3">
+            Click the button below to dynamically alter the paragraph text content using JavaScript DOM manipulation.
+          </p>
+          <div class="p-3 bg-light rounded border mb-3">
+            <p id="target-paragraph" class="fs-5 mb-0 fw-medium text-dark">
+              This is the original paragraph text before clicking the button.
+            </p>
+          </div>
+          <button id="change-text-btn" class="btn btn-success">
+            <i class="bi bi-arrow-repeat me-1"></i> Change Paragraph Text
+          </button>
         </div>
       </div>
 
       <div id="task3" class="card mb-4">
-        <div class="card-header bg-white py-3">
+        <div class="card-header bg-white py-3 d-flex align-items-center justify-content-between">
           <h2 class="h5 fw-bold mb-0 text-success">
             <i class="bi bi-palette me-2"></i>Task 3: Changing Styles
           </h2>
+          <span class="badge bg-light text-secondary border">Inline Style Manipulation</span>
         </div>
         <div class="card-body">
-          <p class="text-muted">Loading Task 3...</p>
+          <p class="text-muted mb-3">
+            Interact with the buttons to dynamically modify the container style properties: background color and font size.
+          </p>
+          <div id="style-box" class="interactive-box p-4 text-center mb-3" style="background-color: #f8fafc; font-size: 18px;">
+            Interactive Styled Container
+          </div>
+          <div class="d-flex flex-wrap gap-2">
+            <button id="change-bg-btn" class="btn btn-outline-success">
+              <i class="bi bi-paint-bucket me-1"></i> Change Background Color
+            </button>
+            <button id="change-font-btn" class="btn btn-outline-primary">
+              <i class="bi bi-fonts me-1"></i> Change Font Size
+            </button>
+          </div>
         </div>
       </div>
 
       <div id="task4" class="card mb-4">
-        <div class="card-header bg-white py-3">
+        <div class="card-header bg-white py-3 d-flex align-items-center justify-content-between">
           <h2 class="h5 fw-bold mb-0 text-success">
             <i class="bi bi-list-check me-2"></i>Task 4: Creating & Removing Elements
           </h2>
+          <span class="badge bg-light text-secondary border">appendChild & removeChild</span>
         </div>
         <div class="card-body">
-          <p class="text-muted">Loading Task 4...</p>
+          <p class="text-muted mb-3">
+            Use the buttons to dynamically add new list items to the unordered list or remove the last existing item.
+          </p>
+          <div class="d-flex flex-wrap gap-2 mb-3">
+            <button id="add-item-btn" class="btn btn-success">
+              <i class="bi bi-plus-circle me-1"></i> Add Item
+            </button>
+            <button id="remove-item-btn" class="btn btn-danger">
+              <i class="bi bi-dash-circle me-1"></i> Remove Item
+            </button>
+          </div>
+          <ul id="dynamic-list" class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">Item 1</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">Item 2</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">Item 3</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -133,5 +174,6 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/part2.js"></script>
 </body>
 </html>
