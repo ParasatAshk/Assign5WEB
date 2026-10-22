@@ -92,24 +92,48 @@
       </div>
 
       <div id="task0" class="card mb-4">
-        <div class="card-header bg-white py-3">
+        <div class="card-header bg-white py-3 d-flex align-items-center justify-content-between">
           <h2 class="h5 fw-bold mb-0 text-primary">
             <i class="bi bi-terminal me-2"></i>Task 0: First Script
           </h2>
+          <span class="badge bg-light text-secondary border">Console & Alert</span>
         </div>
         <div class="card-body">
-          <p class="text-muted">Loading Task 0...</p>
+          <p class="text-muted">
+            This task demonstrates external JavaScript linking, printing student credentials to the browser console via <code>console.log()</code>, and displaying a greeting popup with <code>alert("Hello, JavaScript World!")</code>.
+          </p>
+          <div class="p-3 bg-light rounded border mb-3">
+            <p class="mb-1"><strong>Script Action on Load:</strong></p>
+            <ul class="mb-2 small">
+              <li><code>console.log("Name: Parasat Ashkarbekova");</code></li>
+              <li><code>console.log("Group: SE-2529");</code></li>
+              <li><code>alert("Hello, JavaScript World!");</code></li>
+            </ul>
+            <p class="mb-0 small text-muted">
+              <i class="bi bi-info-circle me-1"></i> Check the browser console (Press <strong>F12</strong> or <strong>Cmd+Option+I</strong>) to view the logged output.
+            </p>
+          </div>
+          <button id="run-task0-btn" class="btn btn-primary">
+            <i class="bi bi-play-fill me-1"></i> Run Task 0 Again
+          </button>
         </div>
       </div>
 
       <div id="task1" class="card mb-4">
-        <div class="card-header bg-white py-3">
+        <div class="card-header bg-white py-3 d-flex align-items-center justify-content-between">
           <h2 class="h5 fw-bold mb-0 text-primary">
             <i class="bi bi-calculator me-2"></i>Task 1: Variables & Operators
           </h2>
+          <span class="badge bg-light text-secondary border">Data Types & Arithmetic</span>
         </div>
         <div class="card-body">
-          <p class="text-muted">Loading Task 1...</p>
+          <p class="text-muted">
+            This task demonstrates declaring variables of various primitive data types (string, number, boolean), performing arithmetic operations (addition, subtraction, multiplication, division, modulus), string concatenation, and outputting the results to the browser console.
+          </p>
+          <div id="task1-output" class="mb-3"></div>
+          <button id="run-task1-btn" class="btn btn-outline-primary">
+            <i class="bi bi-arrow-clockwise me-1"></i> Re-calculate & Log to Console
+          </button>
         </div>
       </div>
     </div>
@@ -122,5 +146,6 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/part1.js"></script>
 </body>
 </html>
