@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 5 - JavaScript Basics | Parasat Ashkarbekova</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <i class="bi bi-code-slash fs-4"></i>
+        <span>Assignment 5</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">
+              <i class="bi bi-house-door me-1"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="part1.html">
+              <i class="bi bi-terminal me-1"></i> Part 1 (Tasks 0-1)
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="part2.html">
+              <i class="bi bi-layers me-1"></i> Part 2 (Tasks 2-4)
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="part3.html">
+              <i class="bi bi-lightning-charge me-1"></i> Part 3 (Tasks 5-7)
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="part4.html">
+              <i class="bi bi-check2-square me-1"></i> Part 4 (Task 8)
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-list-task me-1"></i> All Tasks
+            </a>
+            <ul class="dropdown-menu">
+              <li><h6 class="dropdown-header">Part 1: Introduction</h6></li>
+              <li><a class="dropdown-item" href="part1.html#task0">Task 0: First Script & Alert</a></li>
+              <li><a class="dropdown-item" href="part1.html#task1">Task 1: Variables & Operators</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">Part 2: DOM Manipulation</h6></li>
+              <li><a class="dropdown-item" href="part2.html#task2">Task 2: Changing Content</a></li>
+              <li><a class="dropdown-item" href="part2.html#task3">Task 3: Changing Styles</a></li>
+              <li><a class="dropdown-item" href="part2.html#task4">Task 4: Add & Remove Items</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">Part 3: Events</h6></li>
+              <li><a class="dropdown-item" href="part3.html#task5">Task 5: Mouse Events</a></li>
+              <li><a class="dropdown-item" href="part3.html#task6">Task 6: Keyboard Events</a></li>
+              <li><a class="dropdown-item" href="part3.html#task7">Task 7: Calculator</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">Part 4: Mini Project</h6></li>
+              <li><a class="dropdown-item" href="part4.html#task8">Task 8: To-Do App</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <span class="badge bg-light text-dark py-2 px-3 fs-6 rounded-pill shadow-sm">
+            <i class="bi bi-person-fill text-primary me-1"></i> Parasat Ashkarbekova | SE-2529
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="p-5 mb-5 rounded-4 bg-white shadow-sm border">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill mb-3">
+              Web Technologies &bull; Assignment #5
+            </span>
+            <h1 class="display-6 fw-bold text-dark mb-3">
+              JavaScript Basics: DOM Manipulation & Events
+            </h1>
+            <p class="lead text-muted mb-4">
+              Explore dynamic JavaScript solutions covering fundamental syntax, DOM element modifications, live event handling, and a full interactive To-Do application.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="part1.html" class="btn btn-primary px-4 py-2">
+                <i class="bi bi-play-circle me-1"></i> Start with Part 1
+              </a>
+              <a href="part4.html" class="btn btn-outline-primary px-4 py-2">
+                <i class="bi bi-check2-square me-1"></i> Mini Project (Task 8)
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0 bg-light p-4 rounded-3">
+              <h5 class="fw-bold mb-3"><i class="bi bi-info-circle me-2 text-primary"></i>Student Profile</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><strong>Name:</strong> Parasat Ashkarbekova</li>
+                <li class="mb-2"><strong>Group:</strong> SE-2529</li>
+                <li class="mb-2"><strong>Course:</strong> Web Technologies</li>
+                <li><strong>University:</strong> Astana IT University</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="h4 fw-bold mb-4 text-dark">Assignment Sections</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-hover h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <span class="badge bg-primary text-white px-3 py-2 rounded-pill">Part 1</span>
+                <i class="bi bi-terminal fs-3 text-primary"></i>
+              </div>
+              <h5 class="card-title fw-bold">Introduction to JavaScript</h5>
+              <p class="card-text text-muted small flex-grow-1">
+                Tasks 0 & 1: First script inclusion, student credentials logged to console, greeting alert message, variable types, arithmetic calculations, and string concatenation.
+              </p>
+              <div class="pt-3 border-top mt-3">
+                <a href="part1.html" class="btn btn-sm btn-outline-primary w-100">Open Part 1</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-hover h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <span class="badge bg-success text-white px-3 py-2 rounded-pill">Part 2</span>
+                <i class="bi bi-layers fs-3 text-success"></i>
+              </div>
+              <h5 class="card-title fw-bold">DOM Manipulation</h5>
+              <p class="card-text text-muted small flex-grow-1">
+                Tasks 2, 3 & 4: Changing paragraph text upon click, dynamic styling of container background color and font size, and dynamically appending and removing list elements.
+              </p>
+              <div class="pt-3 border-top mt-3">
+                <a href="part2.html" class="btn btn-sm btn-outline-success w-100">Open Part 2</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-hover h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <span class="badge bg-warning text-dark px-3 py-2 rounded-pill">Part 3</span>
+                <i class="bi bi-lightning-charge fs-3 text-warning"></i>
+              </div>
+              <h5 class="card-title fw-bold">Events & Calculator</h5>
+              <p class="card-text text-muted small flex-grow-1">
+                Tasks 5, 6 & 7: Mouseover and mouseout color transitions, real-time input reflection with keyup events, and a four-function arithmetic calculator.
+              </p>
+              <div class="pt-3 border-top mt-3">
+                <a href="part3.html" class="btn btn-sm btn-outline-warning text-dark w-100">Open Part 3</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-hover h-100">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <span class="badge bg-danger text-white px-3 py-2 rounded-pill">Part 4</span>
+                <i class="bi bi-check2-square fs-3 text-danger"></i>
+              </div>
+              <h5 class="card-title fw-bold">Interactive To-Do App</h5>
+              <p class="card-text text-muted small flex-grow-1">
+                Task 8 Mini Project: Full To-Do application with title and description inputs, in-memory array storage, task completion strike-through toggling, and item deletion.
+              </p>
+              <div class="pt-3 border-top mt-3">
+                <a href="part4.html" class="btn btn-sm btn-outline-danger w-100">Open Part 4</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-auto py-3 bg-white border-top">
+    <div class="container text-center text-muted small">
+      <span>Assignment #5 &bull; Parasat Ashkarbekova (SE-2529) &bull; Astana IT University</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
